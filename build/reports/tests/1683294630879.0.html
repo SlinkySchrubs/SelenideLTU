@@ -1,0 +1,151 @@
+<html lang="en" class=" js no-mobile desktop no-ie chrome chrome112 cas-section w-1470 gt-240 gt-320 gt-480 gt-640 gt-768 gt-800 gt-1024 gt-1280 gt-1440 lt-1680 lt-1920 no-portrait landscape gradient rgba opacity textshadow multiplebgs boxshadow borderimage borderradius cssreflections csstransforms csstransitions no-touch retina fontface domloaded" id="login-page"><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Luleå tekniska universitet - Inloggning</title>
+
+    <meta name="_csrf" content="">
+    <meta name="_csrf_header" content="">
+
+
+    
+    <link rel="stylesheet" href="/cas/css/cas.css">
+    <link rel="icon" href="/cas/favicon.ico" type="image/x-icon"><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+</head>
+<body id="cas">
+
+<div id="container">
+  <header>
+    
+    <a href="https://www.ltu.se" title="Gå till LTU's hemsida">
+      <img id="title" src="/cas/images/ltu_title_sv.jpg">
+      <img id="title_mobil" src="/cas/images/mobil_ltu_title_sv.jpg">
+    </a>
+
+  </header>
+  <div id="content">
+
+
+
+
+<div id="cookiesDisabled" class="errors" style="display:none;">
+    <h2>Webläsar-cookies avaktiverade</h2>
+    <p>Din webläsare accepterar inte cookies. Single Sign On KOMMER INTE ATT FUNGERA.</p>
+</div>
+
+
+
+    
+    
+    
+
+
+
+
+    <p>
+
+
+</p><div class="box" id="login">
+    <form id="fm1" action="/cas/login?service=https%3A%2F%2Fidp.ltu.se%2Fidp%2FAuthn%2FExternal%3Fconversation%3De1s1%26entityId%3Dhttps%3A%2F%2Fwww.student.ladok.se%2Fstudent-sp" method="post">
+
+        
+
+        <h2>Ange din användaridentitet och ditt lösenord.</h2>
+
+        <section class="row">
+            <label for="username"><span class="accesskey">A</span>nvändarid:</label>
+            
+                
+                
+                    
+                    <input id="username" name="username" class="required" tabindex="1" accesskey="a" type="text" value="" size="25" autocomplete="off">
+                
+            
+        </section>
+
+        <section class="row">
+            <label for="password"><span class="accesskey">L</span>ösenord:</label>
+                
+            
+            <input id="password" name="password" class="required" tabindex="2" accesskey="l" type="password" value="" size="25" autocomplete="off">
+            <span id="capslock-on" style="display:none;"><p><img src="images/warning.png" valign="top"> CAPSLOCK är påkopplat!</p></span>
+        </section>
+
+        <!--
+        <section class="row check">
+            <p>
+                <input id="warn" name="warn" value="true" tabindex="3" accesskey="v" type="checkbox" />
+                <label for="warn"><span class="accesskey">V</span>arna mig innan jag loggar på en annan webbtjänst.</label>
+                <br/>
+                <input id="publicWorkstation" name="publicWorkstation" value="false" tabindex="4" type="checkbox" />
+                <label for="publicWorkstation">Jag befinner mig vid en publik dator.</label>
+                <br/>
+                <input type="checkbox" name="rememberMe" id="rememberMe" value="true" tabindex="5"  />
+                <label for="rememberMe">Kom ihåg mig</label>
+            </p>
+        </section>
+        -->
+
+        <section class="row btn-row">
+            <input type="hidden" name="lt" value="">
+            <input type="hidden" name="execution" value="bfd2f0bc-a809-492d-beda-1d6c776863fa_ZXlKaGJHY2lPaUpJVXpVeE1pSjkuVVcxbFpHTm5WbUYzZWtaM2FVWkpWR3BNZUVZclUwbHZXWFJ5SzFoM2JUWlhia3BFYm0weGJtRlhkbEJsY0VablJrdGtObk5GUmpGd2JERnVOQ3Q0U1doNmF6UlBWbEpGVTJkNE9FNXlTWFIzVlZoemNIQmtiV1JyYmtFeldESmtkelpxWkRjdmFWRTVhMHR1WlZjdlFVaDFZVVJUZGtZclozQjFURXhIWlRWME1WTlZNRk41Vm13dlFWcHZielZNUzNwRmQwZGhUMXA1YnpoNVZsUk1lVWxpWlZaQ01uZDZhRzFXZFVOU2VEVmxlR3gxUjBkSE5XcEdaa05KTjNsaFIwNUhRVU42VEdVdlkydHBVVmRMYTJGbWNEWlJiMVl2WmxOSU4zQm5WelpKTTJObWVHTXZiVTVTVEVZelZUTTJaWEZZWkVwclpHaG1aMHREWVhrdldGVXpVMFppTUZOTlNGVnBkMWxCZW5oWlpXSlZhRzF3Y0hnMk9DdHZXVmw1UlZJeVkzazBUV0k1TURZMFJUUndja0pwU1VoR2NIVk9kV1l5VGk5T1RpdEdNV2xZZWxkbFEzSlFlWGRxZW1KVk5UQlFiRFUzVjFGQlFXbEdaV2hETmtSNFJGWk5LMUZYWkVOR05UUk1ZVUpuUmxwcGRqTkRORGt6Vm01MlZtaFlTbFpwZWs4MU5HNXdZVmxoV0VzeVZtRnlVVTgwUmtONk1tVTFObElyVkZaV2VHTXpVME51UTNZeE56YzBZblJ6TWpOUVJubDVUMnBMWlZSTE16UnpSbGhJVEUxWVZtazVVVVpCVEhreVUyZExSSFpUTjNGaVNtOUtlV2s1TjBGQ01YaFFWR1ZWVFU0NGQxcGpVWFZ6TUZOM2IwaElORkZxVW5GVll6UkphSE5pUW5SaVJFSjZVbTV3U1Zsc2MxWXpiMUpDYm5FM2MybHdlR3RNVW1OU2FubHBSVXd6YVVGbmFYbFZaa2xzSzJoemVqVkROREpMT0dkeWJHOUdieTlGU0UxeVVsVnhZVkJsT0dKaGFtNTRibnByUldSVlFWaEdXa3hRUWxobU9FUXlaemhLVFVGTVdtRnphMEpFZEc5RmRIWlpkWGMxUTFWUWFWZHNZWEZsVURkWFJUbDNkVXhNZEdnMlMwWkdSalJyWlhrdllrOUhjMVZpVkhwSEwzcEpkazFKTVhFd2RFb3lWMHhJUTNoRlJHOUxRbFZZY1ZaWFNrOXhaRnBqYjBKb2JsSXlWMEYxUlZGTlpUQmxPVE0zVEdsSE9TOWlSV012V0ZwUVZrZHBjMWxIY2xWRE1IZFpTSGtyVm0xTlQwOTNjV1J4YW5OQ2QyZ3dhaTlJTVRkTVQxSlJVRVZTZVhoNmJWQnpTREZpT0RKd01GbDJObmhJTkhCeFZrOXFUMnhyTkd3clQxbHdhMkZvZDFKQk15OUhjSGxsVVRScmVHVXJhazFIVFVveWVYcFJZbkJvYjNkRFZUSjBRbmRuTWxWSlYwNVZURVExVFZKMmVsTnlZV1E1ZDFvNVZVRjRORkZPTkUxTWJrNHhXR1pOUWl0NVJIbENlR1ZUYzNSbGVVMU1kVTVSU0Uxa1l6bE9OMHBqZEM5SlUzazNiMll4YTNNMlVESTRORlo2VVZWSVVFOWlheXQ2VHpCa1l6WkpWbEZNWmtReFpFOTFLM0pCYUhaS2RYbG5WV0lyUlRRMGJuWldUMWhVU25NNGJtOXZVVE5yU3poeFlsRlpWelpyUm5SQ1dIVlNkVVJ1Tm10SFJXMXRWMmswTkRVcldqTlpOamx1ZG1aclYwTlJMMGRSZDAxYVIxaEVXblJJWVhkNVNIWmxkMEZNUmpOVGRUaGFWWEowVkd4blRHWjJhbFkxWWxSaU56VXhSVXhuVTJrNGJXUm9VbE5WUzNsWFptTkJTbVZpZUhkNVFVVktPR3RUV1UxWlZVZFJhRU5FYlRselUyZ3laMFJpY1RSTlFUbFpOMjVyVFVoVmJVWnVkMFpLYTJWWFpXeHFaRzE2TmtwYU5FSjZUVEJxT1RaaGQwZG5SbmMwY1VGVWMxRlRRMlJJUWxodWIyMWxUamRQU2t4Q1FUVTJZbVI2U2sxblYzVm5kbWgzYW5oT1JqRkdNR05QU1hGd1RYVXlTVTVsYjJ4MWEwVTNWRE53TjNWd2RIUTNNbmc1Tkd4WGF6VXllR2hqYkhSdFJUYzVjbE0zVFVaNk0zZHpOR2gyZEVkUVUzWjJlVUZyWTFaVE5URnhSalZvUm1NNVkyVlJUV3ByYW5KMVltaFRjMEpsZUZCek0zTjZOR1poVVRkcVlYTlhZMWMwVUdwUWFTdDFZbVJyU2pWVWMwWXJlbUY2V1dGb2FVbHhRMmh0ZG01WE0zWkZPRzF3VTFkWFZXNDNORUk1UXpCRVREZGlUblJGV2twVmFqUnBWeXRYVDBGc1ZFWlNPRlJYTkVnemJrVkJSWFJIYkVkTVdVZFFRWE15ZDFCNU0wdHdZMDgwVmtONUsxSjBOMVk0WVVRdlFXZFpRbWRRUjJSS1ZVNVlTMHh6UWpsRVoyZzFOa1l3TjFCTGVuVlVkMFJLZEhGbFdHTlpMMlpIYUN0QmNHOVNRMjk1TXpCTU4wNDNVVEpZZFZsMWJHcG1kVmxOWkVZNVprZzVNRkZVVVRNeU5saDFjamt6Ympsd1owbGthRFFyU2pZd2FWTnJlbmwzTTFKdGFXUllVVUkyVG5ReVpIUnNUVGRwVWtwUU0zQnNaVVFyYURrMFMyRnRjRUZqZVZScVpYVTNSRWx5VDA0MlFVOVhVRkIzWldwVFJHdENVVTRyWjA0elptWm5aSEEzYVdSV1prdDNPVVZITW1sdmVIZGhNVmx0WWpOTVpDOUlVMUpPYWtsTVVXOVlla3hVUW1Kb01uSnBReXR2VkdKSU5YUnBWSEEzVUVsQmQzRTBPSG9yYWpnek1FSlNVVk5qZVhNeVRqbDVSRWhhVlROV1dERjBNM2QwU1hWU01EVjVWazh3VnpKQk5XWnhVeXR5UVdacVYyOW1hWGhFT0ZaUVNUbEVNQzlwYTBJeFIzSnFkSFo0VTNoRlMyTnRPRzFyZWxndmFGVTBUbkVyUkVGRFdVcHpUa0pZVlV4aVVWVjFkRkZFUnk4emIycHZhR05xZDJWNU9HVm1SbTlRWWtveFNVeEtOWFpwYmtneWVHSmxkM2xQTW5kUVZFWXhaV0YwTVhjNFRraDVkMHcwTjBObUx6STJOMjFrVWxsWVRVaHBkR1ZMVEd0cFlYbHBSSGhzWlhkTVoxSldXRGRXTlRkVVdHZEtUWGw1YTNCNWRFZzNVamQyY1V4emRscFRhM1V4VEZseWIwdEJORWh0Ym1Sa09HeG1hbFZDV0hoMk5FdHpVV2hzTDBWa016SjFXRk5zZFdoSFJEQTRWVEJXT1ZnM0wxQkNlVWhOYTJKQmIySllaRTFoTTJrMU5VRXpjVWhFYkVSaVFXbEZXR0o0TVROc1pTdEVVbWQ0WmxWMWJuSmxXV00xYkZGaVJuTTVPVE5CVG1WTWEyaFdXV3hIUmtSWU5UVm1VWFZ4Y0dvMWMyNUpjRGxhU2tNM09VWkhkWGRZVm1oTVZGZGplbXhIZVdzeGFGbFhjM1ZpVFVJNVN6RkRUMDVTVERFMVZsbDRhaTl3WXlzNVpuVnFhV2xUY1hwdFYweGhabFpVWm5kUFNqbE1lbFJZY1RRMmJEQmxTbFJYYlZCcWQwZFpjRmQyTW14NE1WbGxLMkYxYzI5RlkwTjVaVGhSUW5SR1JHSjNVRk5KU2pBNU1uVlhjME52YWt0eVNFOURTazlpY2tSamNqZE1SalZMUmtremN6bGlUazVOYVd0VFdHaEpRbmhrVWl0a2RrVnlNM00wYTI5WGRGSkhaR2s0YzJwME1VSnhPVUZaYlU5b1FVRkNURVl6ZFdnMFZuWjFSV3hWZEdadVRtdFFlRFJCY0cxME1ESkdiMWRsTjJsNk9HWk5iMHRMZERoRlpYZFNibmRYYzBaRFRrcDJVMDFxVmxBeFFYUlJSVTVSY0ZOck1UWTJMMXBuZUZaT1dEa3hLMnhVYkUxSlpXUnhTblpSVkd0UE1rOWhkV3c0ZGtreVUyWkhSRzgzVGtWbVRtUnJjVTF5TTNaVFIwMUNlRVprZUdGVFJWbHdjMUoxVTFaaVMyNXRUbFJ4YWtWU1VDdHhjbGxaUkdWR1kyVTFhRFZzWjJOd2JHcFphbWRWYVRsV2VDdGxiWEpqWm5kNEswVmljRFZRUlhKYWVGZzRjV0V5T0VoemFVSkZTR0ZrVFZaS1VHMVhVbVYwT1hWTU5HaFVkSEIwYWxaUllVZGlMME50ZUdOek5sTmFTbXQwYzJOWVJVZHJTRFZHZFhBMFdGTkdVamx6UlhCeFEyMTZXSFZLUVRoV01HTnVjSGxXTUZwT2JGbHFPVUZYZWpGdlNVYzVRVDA5LkREU2NqTTNrTl9MRFZvd29peXZkXzVYYjVFSy0xVUtsckdIeXlLQU0xcDMwR1NrVlVJaUhmM0kwaVoxNmxIN0dsU0F3N0tNVDFlbUNYQ3RneTlxS21B">
+            <input type="hidden" name="_eventId" value="submit">
+
+            <input class="btn-submit" name="submit" accesskey="l" value="LOGGA IN" tabindex="6" type="submit">
+            <input class="btn-reset" name="reset" accesskey="c" value="RENSA" tabindex="7" type="reset">
+        </section>
+    </form>
+</div>
+
+<div id="sidebar">
+    <div class="sidebar-content">
+        <p>Av säkerhetsskäl bör du logga ut och stänga webbläsaren när du är färdig med webbtjänsterna som kräver inloggning.</p>
+
+        
+
+        <div id="support-info">
+            <h3>Problem med att logga in?</h3>
+            <p>Använd då <a href="http://www.ltu.se/support">supportwebben</a> för att få hjälp.</p>
+        </div>
+
+        <div id="list-languages">
+            
+            
+            
+
+            
+            
+
+            <p><a href="login?service=https%3A%2F%2Fidp.ltu.se%2Fidp%2FAuthn%2FExternal%3Fconversation%3De1s1%26entityId%3Dhttps%3A%2F%2Fwww.student.ladok.se%2Fstudent-sp&amp;locale=en">In English</a></p>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+</div> <!-- END #content -->
+
+<footer>
+    
+    <a href="https://www.ltu.se" title="Gå till LTU's hemsida">
+        <img id="logo" src="/cas/images/ltu_logo_sv.jpg">
+        <img id="logo_mobil" src="/cas/images/mobil_ltu_logo_sv.jpg">
+    </a>
+</footer>
+
+</div> <!-- END #container -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
+
+<script type="text/javascript" src="/cas/js/cas.js"></script>
+
+
+
+
+
+</body></html>
